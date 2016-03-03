@@ -36,7 +36,7 @@ module.exports = {
         message: 'Select which project this commit is targetting:',
         choices: [
         {
-          name: 'jedi:     Jedi\'s',
+          name: 'jedi:     Jedi',
           value: 'jedi'
         }, {
           name: 'sith:     Sith',
