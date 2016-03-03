@@ -3,6 +3,10 @@
   "version": "0.0.0-semantically-versioned",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dijs/semantic-release-test.git"
+  },
   "scripts": {
     "semantic-release": "semantic-release pre && semantic-release post"
   },
