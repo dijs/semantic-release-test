@@ -3,7 +3,7 @@
   "version": "0.0.1-sematic-released",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "",
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "commitizen": "^2.4.6",
-    "cz-conventional-changelog": "^1.1.5",
+    "mocha": "^2.4.5",
     "semantic-release": "^4.3.5"
   },
   "config": {
