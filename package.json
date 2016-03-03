@@ -1,10 +1,8 @@
 {
   "name": "semantic-release-test",
-  "version": "0.0.1-sematic-released",
+  "version": "0.0.0-sematic-released",
   "scripts": {
-    "commit": "git-cz",
-    "test": "mocha",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "commit": "git-cz"
   },
   "author": "",
   "license": "ISC",
@@ -14,12 +12,11 @@
   },
   "devDependencies": {
     "commitizen": "^2.4.6",
-    "mocha": "^2.4.5",
-    "semantic-release": "^4.3.5"
+    "cz-conventional-changelog": "^1.1.5"
   },
   "config": {
     "commitizen": {
-      "path": "cz"
+      "path": "node_modules/cz-conventional-changelog"
     }
   }
 }
