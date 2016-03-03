@@ -1,11 +1,25 @@
 {
   "name": "semantic-release-test",
-  "version": "0.0.1",
   "description": "",
+  "version": "0.0.1-sematic-released",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dijs/semantic-release-test.git"
+  },
+  "devDependencies": {
+    "commitizen": "^2.5.1",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz"
+    }
+  }
 }
