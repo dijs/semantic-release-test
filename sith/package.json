@@ -1,18 +1,13 @@
 {
   "name": "sith",
-  "version": "0.0.0-semantically-versioned",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dijs/semantic-release-test.git"
-  },
+
   "scripts": {
-    "semantic-release": "semantic-release pre && semantic-release post"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "semantic-release": "^4.3.5"
   }
 }

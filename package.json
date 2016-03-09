@@ -2,7 +2,6 @@
   "name": "semantic-release-test",
   "version": "0.0.0-sematic-released",
   "scripts": {
-    "commit": "git-cz"
   },
   "author": "",
   "license": "ISC",
@@ -11,12 +10,5 @@
     "url": "https://github.com/dijs/semantic-release-test.git"
   },
   "devDependencies": {
-    "commitizen": "^2.4.6",
-    "cz-conventional-changelog": "^1.1.5"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
   }
 }
