@@ -2,8 +2,20 @@
   "name": "semantic-release-test",
   "author": "Richard van der Dys",
   "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dijs/semantic-release-test.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.7.0",
+    "cz-conventional-changelog": "^1.1.5"
   }
 }
