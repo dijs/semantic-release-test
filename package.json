@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "commitizen": "^2.7.0",
+    "conventional-recommended-bump": "^0.1.2",
     "cz-conventional-changelog": "^1.1.5"
   }
 }
